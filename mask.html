@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario de Email</title>
+</head>
+<body>
+	<label for="ddd">DDD</label><input id='ddd' onkeypress='mascara(this,ddd)' maxlength='2' style='width: 20px;'>
+	<label for="itelefone">Telefone</label><input id="itelefone" onkeypress="mascara(this,telefone)" maxlength="9"><br>
+	<label for="cpf">CPF</label><input id='cpf' onkeypress='mascara(this,cpf)' maxlength='14'><br>
+	<label for="rg">RG</label><input id='rg' onkeypress='mascara(this,rg)' maxlength='12'><br>
+	<label for="date">Data de Nascimento</label><input id='date' onkeypress='mascara(this,date)' maxlength='10'><br>
+
+
+	<script src='mask.js'></script>
+</body>
+</html>
+
