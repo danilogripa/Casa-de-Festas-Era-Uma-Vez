@@ -126,3 +126,7 @@ footer ul li:last-child {
 	float: right;
 	list-style: none;
 }
+
+footer h6{
+	font:bolder;
+}
