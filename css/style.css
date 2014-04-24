@@ -3,12 +3,16 @@ html {
 }
 
 body {
-	background:#AFEEEE url("../images/footer.jpg") no-repeat bottom;
+	background: #3ccbf5 url("../images/footer.jpg") no-repeat bottom;
 	/*background-image: url("../images/footer.jpg");*/
 }
 
 #header nav {
-	margin-bottom: 20px;
+	margin-bottom: 0px;
+	background: rgba(255,255,255,0.7);
+	position: fixed;
+	width: 100%;
+	z-index: 10000;
 }
 
 header img {
@@ -16,7 +20,7 @@ header img {
 }
 
 .carousel {
-	width: 50%;
+	width: 70%;
 	margin: 0 auto;
 }
 
@@ -57,7 +61,19 @@ nav ul {
 	text-align: center;
 }
 
+#main_content{
+	background: rgba(255,255,255,0.7);
+	width: 70%;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
 footer{
 	margin-top: 20px;
 	background: transparent;
+	height: 200px;
+}
+
+hr{
+	border-color: #3ccbf5;
 }
