@@ -116,9 +116,13 @@ footer .jumbotron {
 
 }
 
+footer ul {
+	padding-left: 0;
+}
+
 footer ul li:first-child {
 	float: left;
-	width: 300px;
+	width: 250px;
 	list-style: none;
 }
 
