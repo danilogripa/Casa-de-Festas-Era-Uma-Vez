@@ -130,3 +130,7 @@ footer ul li:last-child {
 footer h6{
 	font:bolder;
 }
+
+.main-text .form-group h4 {
+	text-align: left;
+} 
