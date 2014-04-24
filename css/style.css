@@ -1,10 +1,12 @@
 html {
-	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	/*font-family: "Lato", "Helvetica", "Arial", sans-serif;*/
+	font-family: 'Century Gothic'
 }
 
 body {
 	background: #3ccbf5 url("../images/footer.jpg") no-repeat bottom;
-	/*background-image: url("../images/footer.jpg");*/
+	background-attachment: fixed;
+	padding-top: 50px;
 }
 #header{
 	position: fixed;
@@ -14,7 +16,7 @@ body {
 
 #header nav {
 	margin-bottom: 0px;
-	background: rgba(255,255,255,0.7);
+	background: rgba(255,255,255, 0.7);
 }
 
 header img {
@@ -46,7 +48,9 @@ nav ul {
 .jumbotron {
 	margin-bottom: 0;
 	text-align: center;
-	background-color: #f1c40f;
+	background: rgba(255,255,255,0.7);
+	width: 70%;
+	margin: 0 auto;
 }
 
 .main-text {
@@ -66,14 +70,16 @@ nav ul {
 #main_content{
 	background: rgba(255,255,255,0.7);
 	width: 70%;
+	margin-bottom: 0;
 	margin: 0 auto;
 	padding: 20px 0;
 }
 
 footer{
-	margin-top: 20px;
+	margin: 20px auto;
 	background: transparent;
-	height: 200px;
+	padding: 0;
+	/*height: 200px;*/
 }
 
 hr{
@@ -82,4 +88,41 @@ hr{
 
 .navbar {
 	border-radius: 0;
+}
+
+.modal {
+	z-index: 999999;
+}
+
+.nav li a, .nav li .btn-facebook {
+	background: rgba(118, 227, 255, 1);
+	color: #fff;
+}
+
+.nav li a:focus, .nav li a:hover,.nav li .btn-facebook:hover {
+	background-color:#5ACAFF;
+}
+
+.nav li a:hover {
+	background-color:#5ACAFF;
+}
+
+footer .jumbotron {
+	height: 240px;
+	position: relative;
+	bottom: -20px;
+	padding-bottom: 0;
+	padding-top: 20px;
+
+}
+
+footer ul li:first-child {
+	float: left;
+	width: 300px;
+	list-style: none;
+}
+
+footer ul li:last-child {
+	float: right;
+	list-style: none;
 }
