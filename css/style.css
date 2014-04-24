@@ -6,13 +6,15 @@ body {
 	background: #3ccbf5 url("../images/footer.jpg") no-repeat bottom;
 	/*background-image: url("../images/footer.jpg");*/
 }
+#header{
+	position: fixed;
+	width: 100%;
+	z-index: 10000;
+}
 
 #header nav {
 	margin-bottom: 0px;
 	background: rgba(255,255,255,0.7);
-	position: fixed;
-	width: 100%;
-	z-index: 10000;
 }
 
 header img {
@@ -76,4 +78,8 @@ footer{
 
 hr{
 	border-color: #3ccbf5;
+}
+
+.navbar {
+	border-radius: 0;
 }
