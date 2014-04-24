@@ -2,16 +2,21 @@ html {
 	font-family: "Lato", "Helvetica", "Arial", sans-serif;
 }
 
+body {
+	background:#AFEEEE url("../images/footer.jpg") no-repeat bottom;
+	/*background-image: url("../images/footer.jpg");*/
+}
+
 #header nav {
 	margin-bottom: 20px;
 }
 
 header img {
-	width: 100%;
+	/*width: 100%;*/
 }
 
 .carousel {
-	width: 70%;
+	width: 50%;
 	margin: 0 auto;
 }
 
@@ -54,4 +59,5 @@ nav ul {
 
 footer{
 	margin-top: 20px;
+	background: transparent;
 }
